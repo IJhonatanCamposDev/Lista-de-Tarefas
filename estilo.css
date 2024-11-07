@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#form-tarefa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tarefa {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+#adicionar {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#lista-tarefas {
+    list-style: none;
+    padding: 20px;
+}
+
+.tarefa {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.concluida {
+    text-decoration: line-through;
+}
